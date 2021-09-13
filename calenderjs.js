@@ -6,6 +6,7 @@ function myFunction() {
 	xhttp.onload = function(){
 		var input;
 		input = this.responseText;
+		alert("ok");
 		PutInTable(input);
 	}
 	xhttp.open("GET", "calender.txt");
